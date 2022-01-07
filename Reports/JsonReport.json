@@ -1,0 +1,240 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Signin",
+        "description": "",
+        "id": "women-dress-purchasing-in-automationpractice-website;signin",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14202648122,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user Creates A Session",
+            "match": {
+              "location": "Step_Def.user_Creates_A_Session()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5866685796,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user Clicks The SigninButton",
+            "match": {
+              "location": "Step_Def.user_Clicks_The_SigninButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 981721257,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user Enters The Email In Email Field",
+            "match": {
+              "location": "Step_Def.user_Enters_The_Email_In_Email_Field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 169790027,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user Enters The Paswword In Password Field",
+            "match": {
+              "location": "Step_Def.user_Enters_The_Paswword_In_Password_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4979984462,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user Clicks On The Signin Button And It Navigates To The Home Page",
+            "match": {
+              "location": "Step_Def.user_Clicks_On_The_Signin_Button_And_It_Navigates_To_The_Home_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Purchase A Dress In Women Section",
+        "description": "",
+        "id": "women-dress-purchasing-in-automationpractice-website;purchase-a-dress-in-women-section",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6772005468,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user Selects The Evening Dresses From Women Section",
+            "match": {
+              "location": "Step_Def.user_Selects_The_Evening_Dresses_From_Women_Section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6035956391,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user Clicks The Pink Colour Icon Button",
+            "match": {
+              "location": "Step_Def.user_Clicks_The_Pink_Colour_Icon_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2115148807,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user Clicks The Add To Cart Button",
+            "match": {
+              "location": "Step_Def.user_Clicks_The_Add_To_Cart_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6099510957,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user Clicks The Proceed To Checkout Button",
+            "match": {
+              "location": "Step_Def.user_Clicks_The_Proceed_To_Checkout_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2205231895,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user Increases The Quantity 4Times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 28
+                }
+              ],
+              "location": "Step_Def.user_Increases_The_Quantity_Times(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3892941659,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user Clicks The Proceed To Checkout Button To Confirm",
+            "match": {
+              "location": "Step_Def.user_Clicks_The_Proceed_To_Checkout_Button_To_Confirm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3668048992,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user Clicks The Proceed To Checkout Buttons",
+            "match": {
+              "location": "Step_Def.user_Clicks_The_Proceed_To_Checkout_Buttons()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2083150186,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user Clicks The Radio Button",
+            "match": {
+              "location": "Step_Def.user_Clicks_The_Radio_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5264008936,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user Clicks The Proceed To Checkout Button Again",
+            "match": {
+              "location": "Step_Def.user_Clicks_The_Proceed_To_Checkout_Button_Again()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Payment Method",
+        "description": "",
+        "id": "women-dress-purchasing-in-automationpractice-website;payment-method",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3957525272,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User Clicks The Pay By BankWire Button",
+            "match": {
+              "location": "Step_Def.user_Clicks_The_Pay_By_BankWire_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4002647586,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User Clicks The I Confirm The Order Button",
+            "match": {
+              "location": "Step_Def.user_Clicks_The_I_Confirm_The_Order_Button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Women Dress Purchasing In AutomationPractice Website",
+    "description": "",
+    "id": "women-dress-purchasing-in-automationpractice-website",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/feature/AutomationPractice.feature"
+  }
+]
